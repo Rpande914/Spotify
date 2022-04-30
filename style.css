@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(200, 216, 230);
+    font-family:'Ubantu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 59px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.container{
+    min-height: 60vh;
+    background-color: #3a3333;
+    color: white;
+    display: flex;
+    width: 70%;
+
+    margin: 23px auto;
+    border-radius: 10px;
+    padding: 14px;
+    background-image: url("/image/pexels-markus-spiske-92083.jpg");
+    background-size: cover;
+}
+.songitemContainer{
+    margin-top: 20px;
+}
+nav ul li{
+    padding: 0px 15px;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+.bottom{
+    position: fixed;
+    width: 71%;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+#myProgresBar{
+    
+    width: 65vw;
+    cursor: pointer;
+}
+.icon{
+    margin: 20px 0px;
+
+}
+.icon i{
+    cursor: pointer;
+}
+.song-list h1{
+color: rgb(57, 52, 49);
+}
+.song-item{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 129%;
+    color: black;
+    margin: 14px 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px; 
+}
+.song-item img{
+    width: 33px;
+    margin: 20px 0px;
+    border-radius: 19px;
+}
+.timestamp{
+    margin: 20px ;
+}
+.songisplay i{
+    cursor: pointer;
+
+}
+.songisplay{
+    margin: 0px 7px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vh;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    width: 200px;
+    height: 70px;
+
+
+}
+
